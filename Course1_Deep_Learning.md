@@ -63,7 +63,7 @@ The notes I wrote down to my notebook for the first two courses of Coursera. I w
 - RNNs have a state h_t that is updated at each time step as a sequence is processed
 - Apply a recurrence relation at each time step
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f99dd4c3-825f-4406-9ff9-a97a1e592af1/3ef1344e-1c6d-4fd4-b9f0-8624ff80626c/Untitled.png)
+![Untitled](./img/rnn.png)
 
 - RNN State Update and Output
 - Update Hidden State → $h_t = tanh(W_{hh}^{T}h_{t-1} + W_{xh}^{T} x_t)$
@@ -129,7 +129,7 @@ The notes I wrote down to my notebook for the first two courses of Coursera. I w
     - Repeat → $w:=w - \alpha\frac{dJ(w)}{dw}$   alpha is the learning rate, determining the size of step
     - Computation Graph
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f99dd4c3-825f-4406-9ff9-a97a1e592af1/acd5859e-ad36-4498-8add-bf3b34f9be63/Untitled.png)
+![Untitled](./img/comp_graph.png)
 
 - Modify the  parameters w1, w2, b to reduce loss → backpropagation
 - For loops, explicit for loops makes the algorithm less efficient.
