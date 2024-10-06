@@ -1,7 +1,4 @@
-<aside>
-💡 *Author: Barancan Sonmez*
 
-</aside>
 
 The notes I wrote down to my notebook for the first two courses of Coursera. I wrote the bullet points when reviewing my notebook. So it's more like a summary and terminology here.
 
